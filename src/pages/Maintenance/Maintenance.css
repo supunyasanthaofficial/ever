@@ -1,0 +1,51 @@
+.content {
+  margin-bottom: 60px;
+}
+
+.maintenance-title {
+  font-size: 90px;
+  font-weight: 700;
+  margin: 0 auto 20px;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.02;
+}
+
+.maintenance-title::first-line {
+  font-size: 90px;
+  font-weight: 600;
+}
+
+.maintenance-title br {
+  display: block;
+  content: "";
+  margin-bottom: 8px;
+}
+
+.description {
+  font-size: 25px;
+  margin-bottom: 40px;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.support-text {
+  font-size: 16px;
+  margin-top: 20px;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.support-text a {
+  color: #4a9eff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.support-text a:hover {
+  color: #80baff;
+  text-decoration: underline;
+}
