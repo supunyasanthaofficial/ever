@@ -1,4 +1,11 @@
-/* ComingSoon.css */
+.coming-soon-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
 .content {
   margin-bottom: 60px;
 }
@@ -8,6 +15,7 @@
   font-weight: 700;
   margin-bottom: 20px;
   letter-spacing: 3px;
+  text-align: center;
 }
 
 .description {
@@ -15,11 +23,12 @@
   margin-bottom: 40px;
   opacity: 0.9;
   line-height: 1.6;
+  text-align: center;
 }
 
 .email-form {
   max-width: 500px;
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
 }
 
 .input-group {
@@ -66,11 +75,23 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Additional styles for the page layout */
-.coming-soon-page {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 20px;
+.maintenance-btn {
+  padding: 15px 30px;
+  border: 2px solid #667eea;
+  border-radius: 40px;
+  background: transparent;
+  color: #667eea;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+.maintenance-btn:hover {
+  background: #667eea;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
 }

@@ -11,6 +11,10 @@ const ComingSoon = () => {
     e.target.reset();
   };
 
+  const handleMaintenanceClick = () => {
+    window.location.href = "/maintenance";
+  };
+
   return (
     <div className="coming-soon-page">
       <Header />
@@ -35,6 +39,10 @@ const ComingSoon = () => {
             </button>
           </div>
         </form>
+
+        <button className="maintenance-btn" onClick={handleMaintenanceClick}>
+          Go to Maintenance Page
+        </button>
       </div>
 
       <Footer />
