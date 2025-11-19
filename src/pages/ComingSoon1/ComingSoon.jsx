@@ -12,7 +12,7 @@ const ComingSoon = () => {
   };
 
   const handleMaintenanceClick = () => {
-    window.location.href = "/maintenance";
+    window.location.href = "/maintenance-page";
   };
 
   return (
