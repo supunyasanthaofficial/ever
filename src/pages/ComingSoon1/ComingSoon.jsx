@@ -2,8 +2,11 @@ import React from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import "./ComingSoon.css";
+import { useNavigate } from "react-router-dom";
 
 const ComingSoon = () => {
+  const navigate = useNavigate();
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const email = e.target.email.value;
@@ -12,7 +15,7 @@ const ComingSoon = () => {
   };
 
   const handleMaintenanceClick = () => {
-    window.location.href = "/maintenance-page";
+    navigate("/maintenance-page");
   };
 
   return (
